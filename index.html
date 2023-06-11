@@ -590,6 +590,11 @@
     <!-- модальне вікно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <button type="button" class="btn-modal-clouse" data-modal-close>
+          <svg class="modal-clouse-icon" Width="8" Height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-contakt">
           <label class="modal-contakt-wrapper">
@@ -666,11 +671,6 @@
           </label>
           <button type="submit" class="contakt-btn-submit">Send</button>
         </form>
-        <button type="button" class="btn-modal-clouse" data-modal-close>
-          <svg class="modal-clouse-icon" Width="8" Height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
