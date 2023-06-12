@@ -597,38 +597,67 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-contakt">
-          <div class="modal-contakt-wrapper">
-            <!-- <label for="user-name" class="modal-contakt-wrapper"></label> -->
-            <label for="user-name" class="modal-contakt-item">
-              <span class="modal-contakt-item">Name</span>
-            </label>
-
-            <div class="name-wrapper">
-              <span class="modal-input-wrapper">
-                <input
-                  class="modal-contakt-input"
-                  type="text"
-                  id="user-name"
-                  name="user_name"
-                  required
-                  pattern="[a-zA-Zа-яА-яіІїЇ'єЄ]+"
-                />
-                <svg class="modal-form-icon" Width="18" Height="24">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-              </span>
-            </div>
+          <div class="modal-contact-input-wrapper">
+            <label class="modal-contakt-wrapper" for="user-name">Name</label>
+          </div>
+          <div class="modal-contakt-input">
+            <input
+              class="modal-contakt-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              required
+              pattern="[a-zA-Zа-яА-яіІїЇ'єЄ]+"
+            />
           </div>
 
-          <label for="user-tel" class="modal-contakt-wrapper">
-            <span class="modal-contakt-item">Phone</span></label
-          >
-          <div>
+          <div class="modal-contact-input-wrapper">
+            <label class="modal-contakt-wrapper" for="user-phone">Phone</label>
+          </div>
+          <input
+            class="modal-contakt-input"
+            type="phone"
+            name="user-phone"
+            id="user-phone"
+          />
+          <div class="modal-contact-input-wrapper">
+            <label class="modal-contakt-wrapper" for="user-email">Email</label>
+          </div>
+          <input
+            class="modal-contakt-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+          />
+          <svg class="modal-form-icon" Width="18" Height="24">
+            <use href="./images/icons.svg#icon-person"></use>
+          </svg>
+        </form>
+      </div>
+      <!-- <div class="modal">
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-contakt">
+          <label class="modal-contakt-wrapper">
+            <span class="modal-contakt-item">Name</span>
+            <span class="modal-input-wrapper">
+              <input
+                class="modal-contakt-input"
+                type="text"
+                name="user_name"
+                required
+                pattern="[a-zA-Zа-яА-яіІїЇ'єЄ]+"
+              />
+              <svg class="modal-form-icon" Width="18" Height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-contakt-wrapper">
+            <span class="modal-contakt-item">Phone</span>
             <span class="modal-input-wrapper">
               <input
                 class="modal-contakt-input"
                 type="tel"
-                id="user-tel"
                 name="user_tel"
                 required
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
@@ -638,15 +667,13 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </span>
-          </div>
-
-          <label for="user-email" class="modal-contakt-wrapper">
+          </label>
+          <label class="modal-contakt-wrapper">
             <span class="modal-contakt-item">Email</span>
             <span class="modal-input-wrapper">
               <input
                 class="modal-contakt-input"
                 type="email"
-                id="user-email"
                 name="user_email"
                 required
                 pattern="[a-zA-Z0-9@.]+"
@@ -684,7 +711,7 @@
           </label>
           <button type="submit" class="contakt-btn-submit">Send</button>
         </form>
-      </div>
+      </div> -->
     </div>
     <script src="./js/modal.js"></script>
   </body>
