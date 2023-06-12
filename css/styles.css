@@ -1091,6 +1091,10 @@ body {
   color: var(--checkbox-link-color) #4d5ae5;
 }
 
+.checkbox-wrapper .modal-checkbox-wrapper > .modal-checkbox-text-link {
+  color: var(--checkbox-link-color) #4d5ae5;
+}
+
 .modal-checkbox:checked + .modal-checkbox-wrapper > .checkbox-icon-wrapper {
   background-color: var(--checkbox-bgc);
   border: none;
