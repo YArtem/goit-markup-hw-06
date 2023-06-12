@@ -1056,7 +1056,7 @@ body {
   /* fill: #f4f4fd; */
 }
 .modal-checkbox-wrapper {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   font-family: "Roboto";
   font-weight: 400;
