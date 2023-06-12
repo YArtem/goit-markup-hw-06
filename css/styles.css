@@ -909,6 +909,8 @@ body {
   margin-bottom: 4px; 
 } */
 .label-wrapper {
+  display: block;
+  margin-bottom: 4px;
 }
 
 .modal-contakt-input {
