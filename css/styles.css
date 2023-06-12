@@ -11,8 +11,11 @@
   --portfolio-items-title-color: #2e2f42;
   --portfolio-items-text-color: #434455;
   --social-link-color: #4d5ae5;
+  --checkbox-link-color: #4d5ae5;
   --customers-color: #8e8f99;
   --modal-text-color: #8e8f99;
+  --checkbox-bgc: #404bbf;
+  --checkbox-icon-color: #f4f4fd;
 }
 
 /* ======= Скидання стилів, які ідуть за замовчуванням від браузера ======= */
@@ -1072,7 +1075,13 @@ body {
   font-size: 12px;
   line-height: 1, 17;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--checkbox-link-color) #4d5ae5;
+}
+
+.modal-checkbox:checked {
+  background-color: var(--checkbox-bgc);
+  border: none;
+  fill: var(--checkbox-icon-color);
 }
 
 /* ------ стилі кнопки модального вікна ----- */
