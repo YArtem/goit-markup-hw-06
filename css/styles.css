@@ -963,6 +963,9 @@ body {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.modal-coment-wrapper {
+  margin-bottom: 16px;
+}
 
 .modal-form-icon {
   position: absolute;
