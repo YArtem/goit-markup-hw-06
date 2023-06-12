@@ -613,25 +613,37 @@
               </svg>
             </div>
           </div>
-
-          <div class="modal-contact-input-wrapper">
-            <label class="modal-contakt-wrapper" for="user-phone">Phone</label>
+          <div class="modal-contakt-wrapper">
+            <label class="label-wrapper" for="user-phone">Phone</label>
+            <div class="modal-input-wrapper">
+              <input
+                class="modal-contakt-input"
+                type="tel"
+                name="user-phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+              />
+              <svg class="modal-form-icon" Width="18" Height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
-          <input
-            class="modal-contakt-input"
-            type="tel"
-            name="user-phone"
-            id="user-phone"
-          />
-          <div class="modal-contact-input-wrapper">
-            <label class="modal-contakt-wrapper" for="user-email">Email</label>
+          <div class="modal-contakt-wrapper">
+            <label class="label-wrapper" for="user-email">Email</label>
+            <div class="modal-input-wrapper">
+              <input
+                class="modal-contakt-input"
+                type="email"
+                name="user_email"
+                required
+                pattern="[a-zA-Z0-9@.]+"
+              />
+              <svg class="modal-form-icon" Width="18" Height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
-          <input
-            class="modal-contakt-input"
-            type="email"
-            name="user-email"
-            id="user-email"
-          />
         </form>
       </div>
       <!-- <div class="modal">
