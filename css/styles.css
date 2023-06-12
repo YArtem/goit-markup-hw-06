@@ -894,9 +894,18 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
-.modal-contakt-wrapper,
-.modal-checkbox-wrapper {
+.modal-contakt-wrapper {
   display: block;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--modal-text-color);
+  margin-bottom: 8px;
+}
+.modal-checkbox-wrapper {
+  /* display: block; */
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
