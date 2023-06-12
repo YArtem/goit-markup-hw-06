@@ -657,19 +657,28 @@
           </div>
           <div class="checkbox-wrapper">
             <input
-              class="modal-checkbox"
+              class="modal-checkbox visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               required
+              value="true"
             />
             <label class="modal-checkbox-wrapper" for="user-privacy">
-              <svg class="modal-my-checkbox-icon" Width="16" Height="16">
-                <use
-                  class="galochka"
-                  href="./images/icons.svg#icon-galochka"
-                ></use>
-              </svg>
+              <span class="checkbox-icon-wrapper">
+                <svg
+                  class="modal-my-checkbox-icon"
+                  aria-label="checkbox icon"
+                  Width="16"
+                  Height="16"
+                >
+                  <use
+                    class="galochka"
+                    href="./images/icons.svg#icon-galochka"
+                  ></use>
+                </svg>
+              </span>
+
               <span class="modal-checkbox-text">
                 I accept the terms and conditions of the
                 <a class="modal-checkbox-text-link" href="">Privacy Policy</a>
